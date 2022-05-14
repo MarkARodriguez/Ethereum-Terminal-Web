@@ -28,3 +28,10 @@ export const getQuote = async () => {
     quote: `“${data.content}” — ${data.author}`,
   };
 };
+
+export const getPrice = async () => {
+  const { data } = await axios.get('https://api.etherscan.io/api?module=stats&action=ethprice&apikey=YourApiKeyToken')
+  return {
+    price: `${data.result.ethusd}`,
+  };
+};
