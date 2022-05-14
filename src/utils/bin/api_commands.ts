@@ -36,7 +36,11 @@ export const weather = async (args: string[]): Promise<string> => {
   return weather;
 };
 
+
 export const price = async (args: string[]): Promise<string> => {
   const data = await getPrice();
-  return data.price;
+  return `[1 ETH = $${data.price} USD]`;
+   
+  
+  //price data from etherscan
 };

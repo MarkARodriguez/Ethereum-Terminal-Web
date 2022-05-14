@@ -150,7 +150,7 @@ export const banner = (args?: string[]): string => {
 ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝     ╚═╝    ╚═╝  ╚═══╝╚══════╝   ╚═╝    ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
   
 
-  (Terminal Version .01)
+  (Terminal Version .02)
 
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
